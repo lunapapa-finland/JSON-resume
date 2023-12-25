@@ -9,8 +9,7 @@ This project aims to generate a PDF resume from a JSON file using Puppeteer and 
 To install the necessary dependencies, run the following commands in your project directory:
 
 ```bash
-npm install puppeteer
-npm install handlebars
+npm install
 ```
 
 ## How to Run
@@ -18,7 +17,10 @@ npm install handlebars
 To generate the resume PDF, use the following command:
 
 ```bash
-make generate
+npm start
+npm startv2
+npm startv3
+npm startv4
 ```
 
 This command will execute the necessary scripts to create a PDF file based on the JSON resume data.

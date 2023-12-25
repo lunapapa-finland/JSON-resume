@@ -1,0 +1,23 @@
+{
+  "name": "json-resume",
+  "version": "1.0.0",
+  "description": "## Background",
+  "main": "generatePDF.js",
+  "scripts": {
+    "start": "node generatePDF.js",
+    "startv2": "node generatePDFv2.js",
+    "startv3": "node generatePDFv3.js",
+    "startv4": "node generatePDFv4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.3.7",
+    "handlebars": "^4.7.8",
+    "address-format": "^0.0.3",
+    "lowercase-keys": "^3.0.0",
+    "moment": "^2.29.4",
+    "node-sass": "^9.0.0"
+  }
+}

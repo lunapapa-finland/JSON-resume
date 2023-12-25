@@ -1,3 +1,5 @@
 resume
 PDF
 .DS**
+node_modules
+html
